@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 5px;
+}
+.container{
+    margin-top: 70px;
+}
+.mapa{
+    margin-left: 50px;
+}
+.titulo{
+    margin-left: 5px;
+}
+.card{
+    margin-left: 85px;
+    margin-top: 10px;
+}
+.tit{
+    margin-left: 85px;
+}
+
+
+@media (max-width: 768px) {
+    .mapa{
+        margin-left: 5px;
+        width: 340px;
+        height: 340px;
+    }
+    .titulo{
+        margin-left: 5px;
+    }
+    
+}
